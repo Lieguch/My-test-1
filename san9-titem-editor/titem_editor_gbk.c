@@ -45,7 +45,8 @@ static char  g_path[512];
 static char  g_buf[1024];
 static char  g_buf2[1024];
 
-static HWND  g_main, g_list, g_status, g_pathEdit, g_font;
+static HWND  g_main, g_list, g_status, g_pathEdit;
+static HFONT g_font;
 static HWND  g_edit[12];
 static HWND  g_lbl[12];
 static HWND  g_btnLoad, g_btnSave, g_btnCheck, g_btnClear, g_btnCopy;
